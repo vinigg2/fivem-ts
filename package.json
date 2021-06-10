@@ -1,6 +1,6 @@
 {
   "name": "urs-inventory",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "author": "",
@@ -10,7 +10,8 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "watch": "webpack --mode development --watch true",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@citizenfx/client": "^1.0.1383-1",
@@ -37,5 +38,9 @@
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinigg2/fivem-ts.git"
   }
 }
