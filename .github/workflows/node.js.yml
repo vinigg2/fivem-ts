@@ -36,7 +36,7 @@ jobs:
       - name: setup nodejs
         uses: actions/setup-node@v1
         with:
-          node-version: [10.x, 12.x, 14.x]
+          node-version: 12
       - name: install packages
         run: npm i
         env:
