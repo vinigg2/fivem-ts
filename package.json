@@ -11,7 +11,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "watch": "webpack --mode development --watch true",
     "release": "semantic-release",
-    "semantic-release": "semantic-release"
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
+    }
   },
   "dependencies": {
     "@citizenfx/client": "^1.0.1383-1",
@@ -28,6 +33,7 @@
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
+    "commitizen": "^4.2.4",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-loader": "^4.0.2",

@@ -7,7 +7,7 @@
   <a href="https://github.com/vinigg2/fivem-ts/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" alt="License: MIT">
   </a>
-  <a href="https://github.com/d0p3t/fivem-ts-boilerplate/commits/master">
+  <a href="https://github.com/vinigg2/fivem-ts/commits/master">
     <img src="https://img.shields.io/github/last-commit/vinigg2/fivem-ts.svg?style=flat" alt="Last commit">
   </a>
   <a href="">
