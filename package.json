@@ -11,7 +11,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "watch": "webpack --mode development --watch true",
     "release": "semantic-release",
-    "commit": "cz"
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
+    }
   },
   "dependencies": {
     "@citizenfx/client": "^1.0.1383-1",
