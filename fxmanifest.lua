@@ -7,4 +7,4 @@ author 'Urso Bala'
 url 'https://github.com/vinigg2'
 
 client_script 'dist/client/*.client.js'
-server_script 'dist/cleint/*.server.js'
+server_script 'dist/server/*.server.js'
